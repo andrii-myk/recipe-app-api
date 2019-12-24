@@ -11,7 +11,7 @@ WORKDIR /app
 COPY ./app /app
 
 RUN adduser -D user
-RUN chown user:user -R /app/
+# RUN chown user:user -R /app/
 USER user
 
 # && chown user:user -R /app/
