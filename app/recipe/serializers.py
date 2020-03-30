@@ -18,4 +18,4 @@ class IngredientSerializer(serializers.ModelSerializer):
     class Meta:
         model = Ingredient
         fields = ('id', 'name')
-        read_onlu_fields = ('id',)
+        read_only_fields = ('id',)
